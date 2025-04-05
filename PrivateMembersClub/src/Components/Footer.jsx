@@ -7,8 +7,8 @@ import {
 
 export default function Footer() {
   return (
-    <>
-      <p>
+    <footer>
+      <p className="address-container">
         Alexander House
         <br />
         10 Hanover Square Mayfair, London
@@ -17,11 +17,12 @@ export default function Footer() {
         <br />
         020 7946 1234
       </p>
+      <br />
       <div className="icon-container">
-        <FontAwesomeIcon icon={faInstagram} />
-        <FontAwesomeIcon icon={faLinkedin} />
-        <FontAwesomeIcon icon={faTwitter} />
+        <FontAwesomeIcon icon={faInstagram} className="icons-social" />
+        <FontAwesomeIcon icon={faLinkedin} className="icons-social" />
+        <FontAwesomeIcon icon={faTwitter} className="icons-social" />
       </div>
-    </>
+    </footer>
   );
 }

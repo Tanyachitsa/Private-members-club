@@ -17,7 +17,10 @@ li {
   padding: 0 auto;
   margin-left: 100px;
 }
-
+footer {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
 .logo {
   height: 90px;
   padding-left: 0px;
@@ -60,4 +63,19 @@ li {
   width: 450px;
   padding-right: 40px;
   object-fit: cover;
+}
+.address-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+}
+.icon-container {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons-social {
+  padding-right: 60px;
 }
