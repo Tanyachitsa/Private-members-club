@@ -30,10 +30,11 @@ li {
   padding-top: 7px;
 }
 .homepage-summary {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
-  padding-top: 30px;
+  margin-top: 30px;
   margin-left: 300px;
+  margin-bottom: 100px;
   margin-right: 300px;
 }
 
@@ -41,4 +42,22 @@ li {
   font-family: cursive;
   font-size: 60px;
   font-weight: 800px;
+}
+
+.homepage-stays,
+.homepage-wellness {
+  height: 300px;
+  padding-left: 40px;
+}
+.homepage-events-container {
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.homepage-events {
+  width: 450px;
+  padding-right: 40px;
+  object-fit: cover;
 }
