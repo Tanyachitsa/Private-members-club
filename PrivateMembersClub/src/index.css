@@ -18,8 +18,10 @@ li {
   margin-left: 100px;
 }
 footer {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 20px;
+  background-color: #594045;
+  margin-top: 30px;
 }
 .logo {
   height: 90px;
@@ -39,6 +41,7 @@ footer {
   margin-left: 300px;
   margin-bottom: 100px;
   margin-right: 300px;
+  font-family: sans-serif;
 }
 
 .homepage-summary-title {
@@ -69,13 +72,28 @@ footer {
   justify-content: center;
   align-items: center;
   padding: auto;
+  color: white;
 }
 .icon-container {
-  color: black;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .icons-social {
   padding-right: 60px;
+}
+.homepage-section {
+  display: flex;
+  justify-content: inline;
+  margin-bottom: 30px;
+}
+.homepage-section p {
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 30px;
 }
