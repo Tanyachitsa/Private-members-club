@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 export default function Header() {
   return (
-    <nav>
+    <nav style={{ marginBottom: "30px" }}>
       <Link to="/">
         <img
           className="logo"
@@ -17,7 +17,7 @@ export default function Header() {
           <li>Wellness</li>
         </Link>
         <Link to="/Events">
-          <li>What's On</li>
+          <li>Events</li>
         </Link>
         <Link to="/Membership">
           <li>Membership</li>
