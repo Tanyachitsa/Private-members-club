@@ -1,7 +1,10 @@
 export default function HouseImages() {
   return (
     <>
-      <div class="container text-center">
+      <div
+        class="container text-center"
+        style={{ paddingBottom: "30px", paddingTop: "30px" }}
+      >
         <div class="row">
           <div class="col">
             <img
@@ -45,20 +48,23 @@ export default function HouseImages() {
         </div>
       </div>
 
-      <div class="container text-center">
+      <div
+        class="container text-center"
+        style={{ paddingBottom: "30px", paddingTop: "30px" }}
+      >
         <div class="row">
           <div class="col">
             <img
-              src="/src/Media/houseMedia/manchester.jpg"
+              src="/src/Media/houseMedia/oxford.jpg"
               alt="image of hotel reception"
               className="house-img"
             />
             <br />
-            <h4>The Loft </h4>
-            <h5>- Manchester -</h5>
+            <h4>The Library House </h4>
+            <h5>- Oxford -</h5>
             <p>
-              An airy, modern hideaway with industrial charm and cityscape
-              skylines.
+              Warm, book-lined walls and a fireplace — perfect for quiet
+              thinkers and dreamers.
             </p>
           </div>
 
@@ -90,7 +96,10 @@ export default function HouseImages() {
         </div>
       </div>
 
-      <div class="container text-center">
+      <div
+        class="container text-center"
+        style={{ paddingBottom: "30px", paddingTop: "30px" }}
+      >
         <div class="row">
           <div class="col">
             <img
