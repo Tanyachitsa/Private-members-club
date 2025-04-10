@@ -1,5 +1,6 @@
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
+import { motion } from "framer-motion";
 
 export default function Homepage() {
   return (
@@ -20,6 +21,7 @@ export default function Homepage() {
           creatives, and discerning minds.
         </strong>
         <br />
+        <br />
         Designed for those who value privacy, connection, and elevated living,
         membership unlocks access to elegant lounges, curated dining, cultural
         salons, wellness spaces, and luxurious overnight stays. With limited
@@ -32,7 +34,7 @@ export default function Homepage() {
           src="/src/Media/homepage-stays.jpg"
           alt="image of a hotel with a pool"
         />
-        <p>
+        <p style={{ fontSize: "25px" }}>
           Experience the ultimate escape with our luxury overnight suites —
           where elegance, comfort, and privacy meet. Unwind in beautifully
           designed spaces crafted for rest, reflection, and indulgence.
@@ -40,7 +42,7 @@ export default function Homepage() {
       </span>
       <span className="homepage-section">
         <div className="homepage-events-container">
-          <p>
+          <p style={{ fontSize: "25px" }}>
             From intimate dinners to cultural salons and curated socials, our
             events are designed to inspire and connect. Each gathering is a
             celebration of taste, thought, and community.
@@ -58,7 +60,7 @@ export default function Homepage() {
           src="/src/Media/homepage-wellness.jpg"
           alt="image of a hotel with a pool"
         />
-        <p>
+        <p style={{ fontSize: "25px" }}>
           Our wellness space offers a calm retreat with state-of-the-art
           fitness, personal training, and restorative treatments. Designed for
           balance, energy, and everyday renewal.

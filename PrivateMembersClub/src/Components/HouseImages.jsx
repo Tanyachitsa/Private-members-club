@@ -2,11 +2,11 @@ export default function HouseImages() {
   return (
     <>
       <div
-        class="container text-center"
+        className="container text-center"
         style={{ paddingBottom: "30px", paddingTop: "30px" }}
       >
-        <div class="row">
-          <div class="col">
+        <div className="row">
+          <div className="col">
             <img
               src="/src/Media/houseMedia/stlucia.jpg"
               alt="image of hotel reception"
@@ -20,7 +20,7 @@ export default function HouseImages() {
               finishes.
             </p>
           </div>
-          <div class="col">
+          <div className="col">
             <img
               src="/src/Media/houseMedia/jordan.jpg"
               alt="image of hotel reception"
@@ -31,7 +31,7 @@ export default function HouseImages() {
             <h5>- Jordan -</h5>
             <p>Tiled elegance and intimate courtyards create a hidden haven.</p>
           </div>
-          <div class="col">
+          <div className="col">
             <img
               src="/src/Media/houseMedia/london.jpg"
               alt="image of hotel reception"
@@ -49,11 +49,11 @@ export default function HouseImages() {
       </div>
 
       <div
-        class="container text-center"
+        className="container text-center"
         style={{ paddingBottom: "30px", paddingTop: "30px" }}
       >
-        <div class="row">
-          <div class="col">
+        <div className="row">
+          <div className="col">
             <img
               src="/src/Media/houseMedia/oxford.jpg"
               alt="image of hotel reception"
@@ -68,7 +68,7 @@ export default function HouseImages() {
             </p>
           </div>
 
-          <div class="col">
+          <div className="col">
             <img
               src="/src/Media/houseMedia/morocco.jpg"
               alt="image of hotel reception"
@@ -79,7 +79,7 @@ export default function HouseImages() {
             <h5>- Morocco -</h5>
             <p>Vibrant mosaics and lantern-lit ambiance.</p>
           </div>
-          <div class="col">
+          <div className="col">
             <img
               src="/src/Media/houseMedia/paris.jpg"
               alt="image of hotel reception"
@@ -97,11 +97,11 @@ export default function HouseImages() {
       </div>
 
       <div
-        class="container text-center"
+        className="container text-center"
         style={{ paddingBottom: "30px", paddingTop: "30px" }}
       >
-        <div class="row">
-          <div class="col">
+        <div className="row">
+          <div className="col">
             <img
               src="/src/Media/houseMedia/lakecomo.jpg"
               alt="image of hotel reception"
@@ -113,7 +113,7 @@ export default function HouseImages() {
             <p>Classical details meet lush greenery in timeless style.</p>
           </div>
 
-          <div class="col">
+          <div className="col">
             <img
               src="/src/Media/houseMedia/swissalps.jpg"
               alt="image of hotel reception"
@@ -124,7 +124,7 @@ export default function HouseImages() {
             <h5>- Switzerland -</h5>
             <p>Mountain luxury with plush linens and fur throws.</p>
           </div>
-          <div class="col">
+          <div className="col">
             <img
               src="/src/Media/houseMedia/zimbabwe.jpeg"
               alt="image of hotel reception"
@@ -138,9 +138,9 @@ export default function HouseImages() {
         </div>
       </div>
 
-      <div class="container text-center">
-        <div class="row">
-          <div class="col">
+      <div className="container text-center">
+        <div className="row">
+          <div className="col">
             <img
               src="/src/Media/houseMedia/egypt.jpg"
               alt="image of hotel reception"
@@ -151,7 +151,7 @@ export default function HouseImages() {
             <h5>- Egypt -</h5>
             <p>Fragrant, peaceful, and filled with quiet romance.</p>
           </div>
-          <div class="col">
+          <div className="col">
             <img
               src="/src/Media/houseMedia/mauritius.jpg"
               alt="image of hotel reception"
@@ -162,7 +162,7 @@ export default function HouseImages() {
             <h5>- Mauritius -</h5>
             <p>Vibrant, floral, and intimate — a bold yet calming retreat.</p>
           </div>
-          <div class="col">
+          <div className="col">
             <img
               src="/src/Media/houseMedia/tuscany.jpg"
               alt="image of hotel reception"

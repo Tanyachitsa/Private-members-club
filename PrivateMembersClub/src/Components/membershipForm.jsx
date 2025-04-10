@@ -3,27 +3,27 @@ export default function MembershipForm() {
     <div className="membershipForm">
       <form>
         <label htmlFor="" style={{ marginBottom: "20px" }}>
-          First Name:
+          First Name: <br />
           <input type="text" />
         </label>
         <br />
         <label htmlFor="" style={{ marginBottom: "20px" }}>
-          Last Name:
+          Last Name: <br />
           <input type="text" />
         </label>
         <br />
         <label htmlFor="" style={{ marginBottom: "20px" }}>
-          Email:
+          Email: <br />
           <input type="email" />
         </label>
         <br />
         <label htmlFor="" style={{ marginBottom: "20px" }}>
-          Contact Number:
+          Contact Number: <br />
           <input type="text" />
         </label>
 
         <fieldset style={{ marginTop: "80px" }}>
-          <legend>Which membership are you interested in?</legend>
+          <legend>Which membership best suits you?</legend>
           <label>
             <input type="radio" name="membership" value="fullMembership" />
             Full

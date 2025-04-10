@@ -1,5 +1,7 @@
 body {
+  font-family: "Newsreader", serif !important;
   max-width: 100%;
+  background-color: #fcfef3;
 }
 nav {
   display: flex;
@@ -23,6 +25,16 @@ footer {
   background-color: #594045;
   margin-top: 30px;
 }
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  border-radius: 100px;
+  border: 1px solid black;
+  height: 2rem;
+  text-indent: 10px;
+  margin-bottom: 20px;
+}
 .logo {
   height: 90px;
   padding-left: 0px;
@@ -37,16 +49,15 @@ footer {
 .homepage-summary {
   font-size: 30px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 28px;
   margin-left: 300px;
   margin-bottom: 100px;
   margin-right: 300px;
-  font-family: sans-serif;
 }
 
 .homepage-summary-title {
   font-family: cursive;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 800px;
 }
 

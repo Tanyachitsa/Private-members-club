@@ -6,8 +6,15 @@ export default function Membership() {
   return (
     <>
       <Header />
-      <h1>Membership</h1>
-      <p>
+      <h1 style={{ textAlign: "center", paddingBottom: "20px" }}>Membership</h1>
+      <p
+        style={{
+          textAlign: "center",
+          marginLeft: "200px",
+          marginRight: "200px",
+          marginBottom: "90px",
+        }}
+      >
         Becoming a member of Alexander House offers more than access — it’s an
         invitation to a refined way of living. With tiered memberships designed
         for different lifestyles, each member enjoys exclusive spaces, curated
@@ -15,11 +22,11 @@ export default function Membership() {
         purpose, and elevated experiences.
       </p>
       <div
-        class="container text-center"
+        className="container text-center"
         style={{ marginTop: "50px", marginBottom: "50px" }}
       >
-        <div class="row">
-          <div class="col">
+        <div className="row">
+          <div className="col" style={{ border: "" }}>
             <h3>Full Membership</h3>
             <br />
             <p>
@@ -34,7 +41,7 @@ export default function Membership() {
             <h6>Annual Fee: </h6>
             <h3>£1300</h3>
           </div>
-          <div class="col">
+          <div className="col">
             <h3>Under 35s Membership</h3>
             <br />
             <p>Same as Full, but discounted for members aged 18–34</p>
@@ -46,7 +53,7 @@ export default function Membership() {
             <h6>Annual Fee: </h6>
             <h3>£920</h3>
           </div>
-          <div class="col">
+          <div className="col">
             <h3>Corporate Membership</h3>
             <br />
             <p>
@@ -60,7 +67,7 @@ export default function Membership() {
             <h6>Annual Fee: </h6>
             <h3>£1050</h3>
           </div>
-          <div class="col">
+          <div className="col">
             <h3>House Membership</h3>
             <br />
             <p>
@@ -77,8 +84,16 @@ export default function Membership() {
           </div>
         </div>
       </div>
-      <h4>Additionals</h4>
-      <ul>
+      <h4
+        style={{
+          textAlign: "center",
+          paddingBottom: "20px",
+          marginTop: "70px",
+        }}
+      >
+        Additionals
+      </h4>
+      <ul style={{ marginBottom: "100px" }}>
         <li>
           <strong>Joining Fee:</strong> £150
         </li>
@@ -86,7 +101,7 @@ export default function Membership() {
           <strong>Guest Passes:</strong>£15/person
         </li>
         <li>
-          <strong>Private Room Booking:£30/hour</strong>
+          <strong>Private Room Booking:</strong> £30/hour
         </li>
         <li>
           <strong>Venue Hire:</strong>from £30/person
