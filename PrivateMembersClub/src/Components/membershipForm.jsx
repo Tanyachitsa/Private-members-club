@@ -25,7 +25,12 @@ export default function MembershipForm() {
         <fieldset style={{ marginTop: "80px" }}>
           <legend>Which membership best suits you?</legend>
           <label>
-            <input type="radio" name="membership" value="fullMembership" />
+            <input
+              type="radio"
+              name="membership"
+              value="fullMembership"
+              required
+            />
             Full
           </label>
           <br />
@@ -46,6 +51,7 @@ export default function MembershipForm() {
         </fieldset>
         <br />
         <button
+          className="button-submit"
           style={{
             borderRadius: "10px",
             padding: "7px",

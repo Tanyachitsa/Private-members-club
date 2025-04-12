@@ -23,7 +23,7 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: #594045;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 input[type="email"],
@@ -50,15 +50,13 @@ input[type="text"] {
   font-size: 30px;
   text-align: center;
   margin-top: 28px;
-  margin-left: 300px;
-  margin-bottom: 100px;
-  margin-right: 300px;
+  margin-left: 250px;
+  margin-bottom: 200px;
+  margin-right: 250px;
 }
 
 .homepage-summary-title {
-  font-family: cursive;
   font-size: 40px;
-  font-weight: 800px;
 }
 
 .homepage-stays,
@@ -118,4 +116,68 @@ input[type="text"] {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+}
+.container.text-center.homepage {
+  margin-bottom: 150px;
+}
+.button-info {
+  border-radius: 15px;
+  padding: 7px;
+  margin-top: 30px;
+  background-color: #ffff;
+  color: black;
+  border: none;
+  border-bottom: 2px black solid;
+}
+.button-info:hover {
+  border-color: white;
+  background-color: #ede8dc;
+  opacity: 0.8;
+  transition: 0.5s;
+  box-shadow: 0 5px #999;
+}
+.button-info:active {
+  box-shadow: 0 2px #666;
+}
+.button-submit {
+  border-radius: 15px;
+  padding: 7px;
+  margin-top: 30px;
+  background-color: #ffff;
+  color: black;
+  border: none;
+  border-bottom: 2px black solid;
+}
+.button-submit:hover {
+  border-color: white;
+  background-color: #ede8dc;
+  opacity: 0.8;
+  transition: 0.5s;
+  box-shadow: 0 5px #999;
+}
+.button-submit:active {
+  box-shadow: 0 2px #666;
+}
+.form-signin {
+  display: flex;
+  justify-content: center;
+}
+.button-signin {
+  border-radius: 15px;
+  padding: 7px;
+  margin-top: 30px;
+  background-color: #ffff;
+  color: black;
+  border: none;
+  border-bottom: 2px black solid;
+}
+.button-signin:hover {
+  border-color: white;
+  background-color: #ede8dc;
+  opacity: 0.8;
+  transition: 0.5s;
+  box-shadow: 0 5px #999;
+}
+.button-signin:active {
+  box-shadow: 0 2px #666;
 }

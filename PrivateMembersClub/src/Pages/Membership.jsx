@@ -6,13 +6,22 @@ export default function Membership() {
   return (
     <>
       <Header />
-      <h1 style={{ textAlign: "center", paddingBottom: "20px" }}>Membership</h1>
+      <h1
+        style={{
+          textAlign: "center",
+          paddingBottom: "20px",
+          paddingTop: "60px",
+        }}
+      >
+        - Membership -
+      </h1>
       <p
         style={{
           textAlign: "center",
-          marginLeft: "200px",
-          marginRight: "200px",
-          marginBottom: "90px",
+          marginLeft: "250px",
+          marginRight: "250px",
+          marginBottom: "150px",
+          fontSize: "25px",
         }}
       >
         Becoming a member of Alexander House offers more than access — it’s an
@@ -23,7 +32,7 @@ export default function Membership() {
       </p>
       <div
         className="container text-center"
-        style={{ marginTop: "50px", marginBottom: "50px" }}
+        style={{ marginTop: "50px", marginBottom: "100px" }}
       >
         <div className="row">
           <div className="col" style={{ border: "" }}>
@@ -68,7 +77,7 @@ export default function Membership() {
             <h3>£1050</h3>
           </div>
           <div className="col">
-            <h3>House Membership</h3>
+            <h3>Stays Membership</h3>
             <br />
             <p>
               Includes Full + access to overnight suites or partnered houses (4
@@ -89,11 +98,12 @@ export default function Membership() {
           textAlign: "center",
           paddingBottom: "20px",
           marginTop: "70px",
+          fontSize: "30px",
         }}
       >
         Additionals
       </h4>
-      <ul style={{ marginBottom: "100px" }}>
+      <ul style={{ marginBottom: "70px" }}>
         <li>
           <strong>Joining Fee:</strong> £150
         </li>
@@ -108,7 +118,9 @@ export default function Membership() {
         </li>
       </ul>
       <hr />
-      <h1 style={{ textAlign: "center" }}>Membership Form</h1>
+      <h1 style={{ textAlign: "center", marginTop: "60px" }}>
+        Membership Form
+      </h1>
       <MembershipForm />
       <Footer />
     </>

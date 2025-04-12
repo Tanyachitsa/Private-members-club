@@ -4,22 +4,34 @@ export default function SignIn() {
   return (
     <>
       <Header />
-      <section>
-        <h2>Sign In</h2>
-        <form action="">
-          <label htmlFor="">
-            Email:
-            <input type="text" name="email" />
-          </label>
-          <label htmlFor="">
-            {" "}
-            Password:
-            <input type="password" />
-          </label>
-          <br />
-          <button>Sign In</button>
-        </form>
-      </section>
+      <>
+        <h2
+          style={{
+            textAlign: "center",
+            paddingBottom: "30px",
+            paddingTop: "20px",
+          }}
+        >
+          Sign In
+        </h2>
+        <div className="form-signin">
+          <form>
+            <label htmlFor="">
+              Email:
+              <br />
+              <input type="text" name="email" />
+            </label>
+            <br />
+            <label htmlFor="">
+              Password:
+              <br />
+              <input type="password" />
+            </label>
+            <br />
+            <button className="button-signin">Sign In</button>
+          </form>
+        </div>
+      </>
       <Footer />
     </>
   );

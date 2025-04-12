@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <nav style={{ marginBottom: "30px" }}>
@@ -7,7 +8,6 @@ export default function Header() {
         src="/src/Media/AlexanderHouse.png"
         alt="Alexander House logo"
       />
-
       <ul>
         <Link to="/">
           <li>Home</li>
