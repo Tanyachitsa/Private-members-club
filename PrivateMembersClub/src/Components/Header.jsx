@@ -18,6 +18,9 @@ export default function Header() {
         <Link to="/Wellness">
           <li>Wellness</li>
         </Link>
+        <Link to="/Events">
+          <li>Events</li>
+        </Link>
         <Link to="/Membership">
           <li>Membership</li>
         </Link>
