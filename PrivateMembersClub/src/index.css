@@ -22,7 +22,7 @@ li {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: #594045;
+  background-color: #d9c2ba;
   margin-top: 100px;
 }
 
@@ -51,8 +51,8 @@ input[type="text"] {
   text-align: center;
   margin-top: 28px;
   margin-left: 250px;
-  margin-bottom: 200px;
   margin-right: 250px;
+  margin-bottom: 200px;
 }
 
 .homepage-summary-title {
@@ -77,17 +77,10 @@ input[type="text"] {
   object-fit: cover;
 }
 .address-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: auto;
-  color: #d6be8b;
+  color: #000000;
 }
 .icon-container {
-  color: #d6be8b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #000000;
 }
 .icons-social {
   padding-right: 60px;
@@ -179,5 +172,24 @@ input[type="text"] {
   box-shadow: 0 5px #999;
 }
 .button-signin:active {
+  box-shadow: 0 2px #666;
+}
+.membershipButton {
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 7px;
+  background-color: #ffff;
+  color: black;
+  border: none;
+  border-bottom: 2px black solid;
+}
+.membershipButton:hover {
+  border-color: white;
+  background-color: #ede8dc;
+  opacity: 0.8;
+  transition: 0.5s;
+  box-shadow: 0 5px #999;
+}
+.membershipButton:active {
   box-shadow: 0 2px #666;
 }

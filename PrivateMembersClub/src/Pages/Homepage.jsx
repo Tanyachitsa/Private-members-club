@@ -1,6 +1,7 @@
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import FadeInSection from "../Animations/FadeInSection";
+import { Link } from "react-router-dom";
 
 export default function Homepage() {
   return (
@@ -9,7 +10,7 @@ export default function Homepage() {
         <Header />
         <video
           className="video-compilation"
-          src="/src/Media/Homepage.mp4"
+          src="/src/Media/homepage.mp4"
           type="video/mp4"
           autoPlay
           loop
@@ -22,8 +23,9 @@ export default function Homepage() {
       <p className="homepage-summary">
         <FadeInSection>
           <em className="homepage-summary-title">
-            Alexander House is a refined sanctuary for modern professionals,
-            creatives, and discerning minds.
+            <strong style={{ fontSize: "55px" }}>Alexander House </strong>is a
+            refined sanctuary for modern professionals, creatives, and
+            discerning minds.
           </em>
         </FadeInSection>
         <FadeInSection>
@@ -35,8 +37,12 @@ export default function Homepage() {
           Alexander House is more than a club — it's your second home.
         </FadeInSection>
       </p>
+      <hr />
       <FadeInSection>
-        <div className="container text-center homepage">
+        <div
+          className="container text-center homepage"
+          style={{ paddingTop: "80px" }}
+        >
           <div className="row">
             <div className="col">
               <img
@@ -55,7 +61,9 @@ export default function Homepage() {
                 beautifully designed spaces crafted for rest, reflection, and
                 indulgence.
               </p>
-              <button className="button-info">Find out More</button>
+              <Link to="/Houses">
+                <button className="button-info">Find out More</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -72,7 +80,9 @@ export default function Homepage() {
                 our events are designed to inspire and connect. Each gathering
                 is a celebration of taste, thought, and community.
               </p>
-              <button className="button-info">Find out More</button>
+              <Link to="/Events">
+                <button className="button-info">Find out More</button>
+              </Link>
             </div>
             <div className="col">
               <img
@@ -103,10 +113,33 @@ export default function Homepage() {
                 fitness, personal training, and restorative treatments. Designed
                 for balance, energy, and everyday renewal.
               </p>
-              <button className="button-info">Find out More</button>
+              <Link to="/Wellness">
+                <button className="button-info">Find out More</button>
+              </Link>
             </div>
           </div>
         </div>
+      </FadeInSection>
+      <FadeInSection>
+        <hr />
+        <p
+          style={{
+            fontSize: "20px",
+            textAlign: "center",
+            marginLeft: "250px",
+            marginRight: "250px",
+            marginTop: "100px",
+            marginBottom: "200px",
+          }}
+        >
+          To enjoy access to these exclusive benefits and experiences, become a
+          member of Alexander House. Choose the membership that suits your
+          lifestyle and join our community today.
+          <br />
+          <Link to="/Membership">
+            <button className="membershipButton">Apply for a membership</button>
+          </Link>
+        </p>
       </FadeInSection>
       <Footer />
     </>
