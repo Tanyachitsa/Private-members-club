@@ -1,0 +1,196 @@
+body {
+  font-family: "Newsreader", serif !important;
+  max-width: 100%;
+  background-color: #fcfef3;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 12px 0px,
+    rgba(0, 0, 0, 0.3) 0px 0px 7px 0px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  padding: 0 auto;
+  margin-left: 100px;
+}
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #d9c2ba;
+  margin-top: 100px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="tel"] {
+  border-radius: 100px;
+  border: 1px solid black;
+  height: 2rem;
+  text-indent: 10px;
+  margin-bottom: 20px;
+}
+.logo {
+  height: 90px;
+  padding-left: 0px;
+}
+.sign-in {
+  padding-right: 30px;
+}
+.video-compilation {
+  width: 100%;
+  padding-top: 7px;
+}
+.homepage-summary {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 28px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 200px;
+}
+
+.homepage-summary-title {
+  font-size: 40px;
+}
+
+.homepage-stays,
+.homepage-wellness {
+  height: 300px;
+  padding-left: 40px;
+}
+.homepage-events-container {
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.homepage-events {
+  width: 450px;
+  padding-right: 40px;
+  object-fit: cover;
+}
+.address-container {
+  color: #000000;
+}
+.icon-container {
+  color: #000000;
+}
+.icons-social {
+  padding-right: 60px;
+}
+.homepage-section {
+  display: flex;
+  justify-content: inline;
+  margin-bottom: 30px;
+}
+.homepage-section p {
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 30px;
+}
+.house-img {
+  height: 300px;
+  width: auto;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.membershipForm {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.container.text-center.homepage {
+  margin-bottom: 150px;
+}
+.button-info {
+  border-radius: 15px;
+  padding: 7px;
+  margin-top: 30px;
+  background-color: #ffff;
+  color: black;
+  border: none;
+  border-bottom: 2px black solid;
+}
+.button-info:hover {
+  border-color: white;
+  background-color: #ede8dc;
+  opacity: 0.8;
+  transition: 0.5s;
+  box-shadow: 0 5px #999;
+}
+.button-info:active {
+  box-shadow: 0 2px #666;
+}
+.button-submit {
+  border-radius: 15px;
+  padding: 7px;
+  margin-top: 30px;
+  background-color: #ffff;
+  color: black;
+  border: none;
+  border-bottom: 2px black solid;
+}
+.button-submit:hover {
+  border-color: white;
+  background-color: #ede8dc;
+  opacity: 0.8;
+  transition: 0.5s;
+  box-shadow: 0 5px #999;
+}
+.button-submit:active {
+  box-shadow: 0 2px #666;
+}
+.form-signin {
+  display: flex;
+  justify-content: center;
+}
+.button-signin {
+  border-radius: 15px;
+  padding: 7px;
+  margin-top: 30px;
+  background-color: #ffff;
+  color: black;
+  border: none;
+  border-bottom: 2px black solid;
+}
+.button-signin:hover {
+  border-color: white;
+  background-color: #ede8dc;
+  opacity: 0.8;
+  transition: 0.5s;
+  box-shadow: 0 5px #999;
+}
+.button-signin:active {
+  box-shadow: 0 2px #666;
+}
+.membershipButton {
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 7px;
+  background-color: #ffff;
+  color: black;
+  border: none;
+  border-bottom: 2px black solid;
+}
+.membershipButton:hover {
+  border-color: white;
+  background-color: #ede8dc;
+  opacity: 0.8;
+  transition: 0.5s;
+  box-shadow: 0 5px #999;
+}
+.membershipButton:active {
+  box-shadow: 0 2px #666;
+}
