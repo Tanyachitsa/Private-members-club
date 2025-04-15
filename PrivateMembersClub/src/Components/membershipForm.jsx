@@ -4,22 +4,22 @@ export default function MembershipForm() {
       <form>
         <label htmlFor="" style={{ marginBottom: "20px" }}>
           First Name: <br />
-          <input type="text" />
+          <input type="text" required />
         </label>
         <br />
         <label htmlFor="" style={{ marginBottom: "20px" }}>
           Last Name: <br />
-          <input type="text" />
+          <input type="text" required />
         </label>
         <br />
         <label htmlFor="" style={{ marginBottom: "20px" }}>
           Email: <br />
-          <input type="email" />
+          <input type="email" required />
         </label>
         <br />
         <label htmlFor="" style={{ marginBottom: "20px" }}>
           Contact Number: <br />
-          <input type="text" />
+          <input type="tel" pattern="[0-9]{10,15}" required />
         </label>
 
         <fieldset style={{ marginTop: "80px" }}>

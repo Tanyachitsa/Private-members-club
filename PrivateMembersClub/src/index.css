@@ -28,7 +28,8 @@ footer {
 
 input[type="email"],
 input[type="password"],
-input[type="text"] {
+input[type="text"],
+input[type="tel"] {
   border-radius: 100px;
   border: 1px solid black;
   height: 2rem;
